@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-
 import Cookies from 'js-cookie'
 
 import ElementPlus from 'element-plus'
@@ -43,6 +42,7 @@ import TreeSelect from '@/components/TreeSelect'
 // 字典标签组件
 import DictTag from '@/components/DictTag'
 
+console.log( import.meta.env.REACT_APP_MOCK)
 const app = createApp(App)
 
 // 全局方法挂载
